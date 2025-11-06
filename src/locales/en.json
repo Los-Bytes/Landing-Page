@@ -1,0 +1,75 @@
+{
+    "header":{
+        "how-it-works": "How it works?",
+        "features": "Features",
+        "benefits": "Benefits",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "start-free": "Start for free"
+    },
+    "hero":{
+        "title": "Smart Laboratory Inventory Management",
+        "subtitle": "Forget manual counting. Sensors, RFID, and QR codes monitor your supplies 24/7",
+        "demo": "Get Demo",
+        "check-out": "See how it works"
+    },
+    "problem":{
+        "why": "Why LabIoT?",
+        "why-description": "Tired of wasting time counting jars or dealing with Excel? LabIoT automates your inventory and alerts you before something goes wrong."
+    },
+    "features":{
+        "title": "How it works in 3 steps",
+        "step1-title": "1. Tagging",
+        "step1-description": "Label your containers with RFID or QR codes for easy identification.",
+        "step2-title": "2. Monitoring",
+        "step2-description": "Sensors monitor temperature, humidity and locations 24/7.",
+        "step3-title": "3. Action",
+        "step3-description": "The platform alerts you in real time and shows you what to do."
+    },
+    "characteristics":{
+        "title": "Key Features",
+        "feature1-title": "Quick identification",
+        "feature1-description": "RFID and QR for instant searches.",
+        "feature2-title": "Real-time alerts",
+        "feature2-description": "Notifications via email or within the app.",
+        "feature3-title": "Environmental monitoring",
+        "feature3-description": "Temperature and humidity controlled.",
+        "feature4-title": "Integrations",
+        "feature4-description": "Connect with your ERP or purchasing system.",
+        "feature5-title": "Scalable",
+        "feature5-description": "Works from a small lab to a large one.",
+        "feature6-title": "Custom modules",
+        "feature6-description": "Choose between basic inventory management or advanced monitoring."
+    },
+    "benefits":{
+        "title": "Results that matter",
+        "benefit1": "Less time in inventory → more time for research",
+        "benefit2": "Prevents losses due to expiration or improper storage",
+        "benefit3": "Compliant with regulations and facilitates audits",
+        "fast": "Fast",
+        "multiplatform": "Multi-platform",
+        "secure": "Secure"
+    },
+    "faq":{
+        "title": "Frequently Asked Questions",
+        "question1": "Do I need to replace all the equipment?",
+        "answer1": "No, LabIoT is adaptable and can start with a pilot area.",
+        "question2": "Does it work with sensitive reagents?",
+        "answer2": "Yes, the sensors send alerts before any losses occur.",
+        "question3": "Does it integrate with my systems?",
+        "answer3": "Yes, we design integrations based on your purchasing or ERP systems."
+    },
+    "contact":{
+        "title": "Contact Us",
+        "name": "Name",
+        "email": "Email",
+        "organization": "Organization",
+        "message": "Message",
+        "send": "Send Message"
+    },
+    "footer":{
+        "description": "A smart laboratory platform that automates inventory control with IoT, RFID, and sensors. Our goal is to help you save time, reduce errors, and ensure the safety of your materials.",
+        "rights": "All rights reserved",
+        "network": "Networks"
+    }
+}

@@ -4,6 +4,7 @@ import App from './app.vue'
 import i18n from './i18n.js'
 import PrimeVue from 'primevue/config';
 import Material from '@primeuix/themes/material';
+import 'material-symbols';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 import {Avatar, Button, Card, Drawer, Image, Menu, Menubar, SelectButton, Toolbar, Tooltip} from "primevue";

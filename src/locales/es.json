@@ -1,0 +1,75 @@
+{
+    "header":{
+        "how-it-works": "¿Cómo funciona?",
+        "features": "Características",
+        "benefits": "Beneficios",
+        "faq": "Preguntas frecuentes",
+        "contact": "Contacto",
+        "start-free": "Comienza gratis"
+    },
+    "hero":{
+        "title": "Inventario inteligente para laboratorios",
+        "subtitle": "Olvídate del conteo manual. Sensores, RFID y QR que vigilan tus insumos 24/7.",
+        "demo": "Solicitar demo",
+        "check-out": "Ver cómo funciona"
+    },
+    "problem":{
+        "why": "¿Por qué LabIoT?",
+        "why-description": "¿Cansado de perder tiempo contando frascos o lidiando con Excel? LabIoT automatiza tu inventario y te alerta antes de que algo salga mal."
+    },
+    "features":{
+        "title": "Así funciona en 3 pasos",
+        "step1-title": "1. Etiquetar",
+        "step1-description": "Ponemos RFID o QR a cada insumo para identificarlo al instante.",
+        "step2-title": "2. Monitorear",
+        "step2-description": "Sensores vigilan temperatura, humedad y ubicaciones 24/7.",
+        "step3-title": "3. Actuar",
+        "step3-description": "La plataforma te alerta en tiempo real y te muestra qué hacer."
+    },
+    "characteristics":{
+        "title": "Características clave",
+        "feature1-title": "Identificación rápida",
+        "feature1-description": "RFID y QR para búsquedas instantáneas.",
+        "feature2-title": "Alertas en tiempo real",
+        "feature2-description": "Notificaciones por email o dentro de la app.",
+        "feature3-title": "Monitoreo ambiental",
+        "feature3-description": "Temperatura y humedad controladas.",
+        "feature4-title": "Integraciones",
+        "feature4-description": "Conecta con tu ERP o sistema de compras.",
+        "feature5-title": "Escalable",
+        "feature5-description": "Funciona desde un laboratorio pequeño hasta uno grande.",
+        "feature6-title": "Módulos a medida",
+        "feature6-description": "Elige entre inventario básico o monitoreo avanzado."
+    },
+    "benefits":{
+        "title": "Resultados que importan",
+        "benefit1": "Menos tiempo en inventarios → más tiempo para investigar",
+        "benefit2": "Evita pérdidas por caducidad o mal almacenamiento",
+        "benefit3": "Cumple normas y facilita auditorías",
+        "fast": "Rápido",
+        "multiplatform": "Multiplataforma",
+        "secure": "Seguro"
+    },
+    "faq":{
+        "title": "Preguntas frecuentes",
+        "question1": "¿Hace falta cambiar todo el equipamiento?",
+        "answer1": "No, LabIoT se adapta y puede empezar por un área piloto.",
+        "question2": "¿Funciona con reactivos sensibles?",
+        "answer2": "Sí, los sensores envían alertas antes de que haya pérdidas.",
+        "question3": "¿Se integra con mis sistemas?",
+        "answer3": "Sí, diseñamos integraciones según tus sistemas de compras o ERP."
+    },
+    "contact":{
+        "title": "Contáctanos",
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "organization": "Organización",
+        "message": "Mensaje",
+        "send": "Enviar mensaje"
+    },
+    "footer":{
+        "description": "Una plataforma inteligente para laboratorios que automatiza el control de inventarios con IoT, RFID y sensores. Nuestro objetivo es ayudarte a ahorrar tiempo, reducir errores y garantizar la seguridad de tus materiales.",
+        "rights": "Todos los derechos reservados",
+        "network": "Redes"
+    }
+}
