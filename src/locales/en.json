@@ -70,6 +70,9 @@
     "footer":{
         "description": "A smart laboratory platform that automates inventory control with IoT, RFID, and sensors. Our goal is to help you save time, reduce errors, and ensure the safety of your materials.",
         "rights": "All rights reserved",
-        "network": "Networks"
+        "network": "Networks",
+        "share": "Share",
+        "web": "Website",
+        "email": "Email"
     }
 }

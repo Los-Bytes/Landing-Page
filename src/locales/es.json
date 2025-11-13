@@ -70,6 +70,9 @@
     "footer":{
         "description": "Una plataforma inteligente para laboratorios que automatiza el control de inventarios con IoT, RFID y sensores. Nuestro objetivo es ayudarte a ahorrar tiempo, reducir errores y garantizar la seguridad de tus materiales.",
         "rights": "Todos los derechos reservados",
-        "network": "Redes"
+        "network": "Redes",
+        "share": "Compartir",
+        "web": "Sitio web",
+        "email": "Correo electrónico"
     }
 }

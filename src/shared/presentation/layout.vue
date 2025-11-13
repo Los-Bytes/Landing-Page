@@ -4,6 +4,9 @@ import FooterContent from './footer-content.vue'
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 import { reactive } from 'vue'
+import DevelopmentTeam from "@/shared/presentation/components/development-team.vue";
+import AboutTheProduct from "@/shared/presentation/components/about-the-product.vue";
+import AboutTheTeam from "@/shared/presentation/components/about-the-team.vue";
 const form = reactive({
   nombre: '',
   email: '',
@@ -137,6 +140,15 @@ function submitForm() {
         </form>
       </section>
     </section>
+    <!-- Development team -->
+    <DevelopmentTeam />
+
+    <!-- About de product -->
+    <about-the-product />
+
+    <!-- About the team -->
+    <about-the-team />
+
     <!-- Footer -->
     <footer-content />
   </div>
