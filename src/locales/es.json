@@ -74,5 +74,18 @@
         "share": "Compartir",
         "web": "Sitio web",
         "email": "Correo electrónico"
+    },
+    "developments":{
+      "title": "Equipo de desarrollo",
+      "description-alicia": "Soy estudiante de Ingeniería de Software en la UPC, con conocimientos básicos en programación en C++ y Python, fundamentos en bases de datos, diseño y modelado de software utilizando UML y diagramas, así como algoritmos y estructuras de datos básicos. Además, poseo habilidades de empatía y comunicación efectiva que me permiten colaborar de manera eficiente en equipo, facilitando la comunicación clara y asertiva para contribuir a un entorno de trabajo productivo y colaborativo.",
+      "description-alex": "Soy estudiante de ingeniería de software en la UPC, con conocimientos básicos en los lenguajes de programación como c++, python , css, html, javascript también conocimientos básicos en base de datos viendo Mongo DB y creando diagramas relaciones como no relacionales. Además poseo habilidades de empatía y buena comunicación con el equipo esto me permite ser productivo en el ámbito de grupos y en general.",
+      "description-cristhian": "Soy estudiante de ingeniería de software en la UPC, me considero una persona proactiva, organizada y responsable al momento de desarrollar un nuevo proyecto en mi vida. En un grupo de trabajo siempre trato de respetar las opiniones de los demás, trato de entender los demás puntos de vista y animo a estar en unión frente a un problema.",
+      "description-marcelo": "Soy estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y en la creación de soluciones tecnológicas innovadoras. Me caracterizo por mi interés en el aprendizaje continuo con el objetivo de seguir creciendo profesionalmente y aportar valor en el área de la tecnología."
+    },
+    "product": {
+      "title": "Sobre el producto"
+    },
+    "team": {
+      "title": "Sobre el equipo de trabajo"
     }
 }

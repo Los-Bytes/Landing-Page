@@ -127,6 +127,7 @@ function submitForm() {
         </div>
       </section>
     </section>
+
     <!-- Contacto -->
     <section id="contacto" class="section">
       <section class="section bg-light">
@@ -140,6 +141,7 @@ function submitForm() {
         </form>
       </section>
     </section>
+
     <!-- Development team -->
     <DevelopmentTeam />
 
@@ -168,45 +170,48 @@ html, body, #app {
   max-width: 100%;
   box-sizing: border-box;
 }
+
 /* Header */
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 15rem;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #dbeafe;
-  padding: 1.2rem 2rem;  
+  padding: 1.2rem 2rem;
   position: sticky;
   top: 0;
   z-index: 50;
+  width: 100%;
+  flex-wrap: wrap;
 }
+
 /* Logo */
 .logo {
   display: flex;
   align-items: center;
-  cursor: pointer;
-  gap: 0.8rem;
-}
-.logo-link {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  text-decoration: none;
-}
-.logo-icon {
-  width: 32px;
-  height: auto;
+  gap: 10px; /* Ajustar espacio entre el icono y el texto */
+  flex-shrink: 0;
 }
 
-.logo-text {
-  height: 28px;
-  width: auto;
+.logo img {
+  display: inline-block;
+  margin-right: 10px;
 }
 
+.logo-icon{
+  width:30px;
+}
+.logo-text{
+  width:100px;
+}
+
+/* Menú de navegación */
 .menu {
   display: flex;
   gap: 2rem;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .menu a {
@@ -230,6 +235,8 @@ html, body, #app {
   border-radius: 0.5rem;
   transition: background 0.3s;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin-left: auto;
+  margin-right: 10px;
 }
 
 .cta:hover {
@@ -238,6 +245,10 @@ html, body, #app {
 
 /* --- Responsivo --- */
 @media (max-width: 768px) {
+  .navbar {
+    gap: 1rem; /* Reduce el espacio entre los elementos en dispositivos pequeños */
+  }
+
   .menu {
     display: none;
     flex-direction: column;
@@ -249,6 +260,7 @@ html, body, #app {
     border: 1px solid #ddd;
     padding: 16px;
     border-radius: 8px;
+    width: 100%;
   }
 
   .menu.open {
@@ -257,6 +269,23 @@ html, body, #app {
 
   .menu-toggle {
     display: block;
+  }
+
+  .logo {
+    flex-grow: 1;
+    min-width: 100px;
+  }
+}
+
+/* --- Ajustes generales para la barra de navegación en todos los tamaños --- */
+@media (max-width: 1024px) {
+  .menu {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .logo {
+    flex-grow: 1;
   }
 }
 
@@ -283,9 +312,11 @@ h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
+
 .hero h2 {
   color: #f1f1f1;
 }
+
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -294,6 +325,7 @@ h2 {
 .card h3 {
   color: #333333;
 }
+
 .card p {
   color: #333333;
 }
@@ -344,30 +376,6 @@ h2 {
   margin: 0 auto;
   padding: 0 1rem;
 }
-.problem-tags {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1.5rem;
-}
-
-.problem-tags span {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: #004AAD;
-  font-weight: 600;
-  font-size: 1rem;
-}
-.material-symbols-outlined {
-  font-size: 20px;
-}
-
-.bg-light {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #f1f1f1;
-}
 
 .grid {
   display: grid;
@@ -381,14 +389,6 @@ h2 {
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .faq div {
@@ -441,6 +441,7 @@ h2 {
   background: linear-gradient(135deg, #004AAD, #00B894);
   color: white;
 }
+
 #contacto .form input,
 #contacto .form textarea {
   width: 100%;
@@ -452,5 +453,33 @@ h2 {
   color: #333333;
   font-size: 16px;
   box-sizing: border-box;
+}
+
+/* --- Cómo funciona --- */
+#funciona .grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+/* --- Características --- */
+#caracteristicas .grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
 }
 </style>
