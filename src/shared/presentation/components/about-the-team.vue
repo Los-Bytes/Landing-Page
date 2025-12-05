@@ -3,7 +3,7 @@
 import {useI18n} from "vue-i18n";
 const {t}=useI18n();
 
-const videoUrl = 'https://www.youtube.com/embed'; // Modificar a embed
+const videoUrl = 'https://www.youtube.com/embed/qcBa17T2pYk'; // Modificar a embed
 </script>
 
 <template>
