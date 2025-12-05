@@ -70,6 +70,23 @@
     "footer":{
         "description": "A smart laboratory platform that automates inventory control with IoT, RFID, and sensors. Our goal is to help you save time, reduce errors, and ensure the safety of your materials.",
         "rights": "All rights reserved",
-        "network": "Networks"
-    }
+        "network": "Networks",
+        "share": "Share",
+        "web": "Website",
+        "email": "Email"
+    },
+  "developments": {
+    "title": "Development Team",
+    "description-alicia": "I am a Software Engineering student at UPC, with basic knowledge in programming in C++ and Python, fundamentals in databases, software design and modeling using UML and diagrams, as well as basic algorithms and data structures. Additionally, I possess empathy and effective communication skills that allow me to collaborate efficiently in teams, facilitating clear and assertive communication to contribute to a productive and collaborative work environment.",
+    "description-alex": "I am a Software Engineering student at UPC, with basic knowledge in programming languages such as C++, Python, CSS, HTML, JavaScript, as well as basic knowledge in databases, studying MongoDB and creating both relational and non-relational diagrams. Furthermore, I have empathy and good communication skills with the team, which allows me to be productive in group settings and in general.",
+    "description-cristhian": "I am a Software Engineering student at UPC, I consider myself a proactive, organized, and responsible person when developing a new project in my life. In a workgroup, I always try to respect others' opinions, seek to understand other points of view, and encourage unity when facing a problem.",
+    "description-marcelo": "I am a Software Engineering student, interested in application development and creating innovative technological solutions. I am characterized by my interest in continuous learning with the aim of growing professionally and adding value to the technology field."
+  },
+  "product": {
+    "title": "About the Product"
+  },
+  "team": {
+    "title": "About the Team"
+  }
+
 }

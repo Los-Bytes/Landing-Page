@@ -11,9 +11,9 @@ const { t } = useI18n();
           <p>{{ t('footer.description') }}</p>
         </div>
         <div class="footer-links">
-          <a href="#"><span class="material-symbols-outlined">language</span> Web</a>
-          <a href="mailto:info@labiot.com"><span class="material-symbols-outlined">mail</span> Email</a>
-          <a href="#"><span class="material-symbols-outlined">share</span> Redes</a>
+          <a href="#"><span class="material-symbols-outlined">language</span> {{ t('footer.web') }}</a>
+          <a href="mailto:info@labiot.com"><span class="material-symbols-outlined">mail</span> {{ t('footer.email') }}</a>
+          <a href="#"><span class="material-symbols-outlined">share</span> {{ t('footer.share') }}</a>
         </div>
       </div>
       <div class="footer-copy">
