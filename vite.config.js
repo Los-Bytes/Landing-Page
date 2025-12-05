@@ -3,17 +3,22 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-// https://vite.dev/config/
+// Detectar el entorno
+const isGitHubPages = process.env.GITHUB_PAGES === 'true'
+
 export default defineConfig({
     plugins: [
         vue(),
-        vueDevTools(),
+        ...(process.env.NODE_ENV !== 'production' ? [vueDevTools()] : [])
     ],
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url))
         },
     },
-    base: '/Landing-Page/',  // Asegúrate de que este valor sea el nombre de tu repositorio en GitHub
+    // Usar base diferente según el entorno
+    base: isGitHubPages ? '/Landing-Page/' : '/',
+    define: {
+        __VUE_PROD_DEVTOOLS__: JSON.stringify(false)
+    }
 })
-
