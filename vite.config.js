@@ -1,24 +1,27 @@
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import vueDevTools from 'vite-plugin-vue-devtools'
 
-// Detectar el entorno
-const isGitHubPages = process.env.GITHUB_PAGES === 'true'
-
-export default defineConfig({
-    plugins: [
-        vue(),
-        ...(process.env.NODE_ENV !== 'production' ? [vueDevTools()] : [])
-    ],
-    resolve: {
-        alias: {
-            '@': fileURLToPath(new URL('./src', import.meta.url))
+// https://vite.dev/config/
+export default defineConfig(async ({ mode }) => {
+    const plugins = [vue()]
+    
+    // Solo cargar devtools en desarrollo
+    if (mode === 'development') {
+        const { default: vueDevTools } = await import('vite-plugin-vue-devtools')
+        plugins.push(vueDevTools())
+    }
+    
+    return {
+        plugins,
+        resolve: {
+            alias: {
+                '@': fileURLToPath(new URL('./src', import.meta.url))
+            },
         },
-    },
-    // Usar base diferente según el entorno
-    base: isGitHubPages ? '/Landing-Page/' : '/',
-    define: {
-        __VUE_PROD_DEVTOOLS__: JSON.stringify(false)
+        base: '/',
+        define: {
+            __VUE_PROD_DEVTOOLS__: JSON.stringify(false)
+        }
     }
 })
